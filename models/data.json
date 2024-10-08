@@ -1,0 +1,194 @@
+{
+  "localities": [
+    {
+      "id": 1,
+      "name": "Cotonou",
+      "sensors": [
+        { "id": 1, "sensorId": "SENSOR-001", "type": "water_level", "value": 1.5, "timestamp": "2024-10-08T08:30:00Z", "localityId": 1 },
+        { "id": 2, "sensorId": "SENSOR-002", "type": "water_level", "value": 1.1, "timestamp": "2024-10-08T08:40:00Z", "localityId": 1 },
+        { "id": 3, "sensorId": "SENSOR-003", "type": "water_level", "value": 1.3, "timestamp": "2024-10-08T08:50:00Z", "localityId": 1 }
+      ],
+      "weatherForecasts": [
+        { "id": 1, "city": "Cotonou", "temperature": 29.0, "description": "Partly Cloudy", "timestamp": "2024-10-08T09:00:00Z" },
+        { "id": 2, "city": "Cotonou", "temperature": 30.5, "description": "Sunny", "timestamp": "2024-10-08T09:30:00Z" },
+        { "id": 3, "city": "Cotonou", "temperature": 28.0, "description": "Rain Showers", "timestamp": "2024-10-08T10:00:00Z" }
+      ],
+      "alerts": [
+        { "id": 1, "message": "Severe flood warning in Cotonou", "sentTo": "admin@floodmanagement.com", "sentAt": "2024-10-08T10:30:00Z" },
+        { "id": 2, "message": "Heavy rain expected in Cotonou", "sentTo": "admin@weathermanagement.com", "sentAt": "2024-10-08T10:35:00Z" },
+        { "id": 3, "message": "Flood risk increasing in Cotonou", "sentTo": "admin@floodmanagement.com", "sentAt": "2024-10-08T10:40:00Z" }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Porto-Novo",
+      "sensors": [
+        { "id": 4, "sensorId": "SENSOR-004", "type": "water_level", "value": 1.0, "timestamp": "2024-10-08T08:30:00Z", "localityId": 2 },
+        { "id": 5, "sensorId": "SENSOR-005", "type": "water_level", "value": 0.7, "timestamp": "2024-10-08T08:40:00Z", "localityId": 2 },
+        { "id": 6, "sensorId": "SENSOR-006", "type": "water_level", "value": 1.2, "timestamp": "2024-10-08T08:50:00Z", "localityId": 2 }
+      ],
+      "weatherForecasts": [
+        { "id": 4, "city": "Porto-Novo", "temperature": 30.0, "description": "Sunny", "timestamp": "2024-10-08T09:00:00Z" },
+        { "id": 5, "city": "Porto-Novo", "temperature": 29.5, "description": "Partly Cloudy", "timestamp": "2024-10-08T09:30:00Z" },
+        { "id": 6, "city": "Porto-Novo", "temperature": 28.5, "description": "Cloudy", "timestamp": "2024-10-08T10:00:00Z" }
+      ],
+      "alerts": [
+        { "id": 4, "message": "Flood alert in Porto-Novo", "sentTo": "admin@floodmanagement.com", "sentAt": "2024-10-08T10:30:00Z" },
+        { "id": 5, "message": "Moderate rainfall expected in Porto-Novo", "sentTo": "admin@weathermanagement.com", "sentAt": "2024-10-08T10:35:00Z" },
+        { "id": 6, "message": "Flood risk increasing in Porto-Novo", "sentTo": "admin@floodmanagement.com", "sentAt": "2024-10-08T10:40:00Z" }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Parakou",
+      "sensors": [
+        { "id": 7, "sensorId": "SENSOR-007", "type": "water_level", "value": 1.8, "timestamp": "2024-10-08T08:30:00Z", "localityId": 3 },
+        { "id": 8, "sensorId": "SENSOR-008", "type": "water_level", "value": 1.0, "timestamp": "2024-10-08T08:40:00Z", "localityId": 3 },
+        { "id": 9, "sensorId": "SENSOR-009", "type": "water_level", "value": 1.4, "timestamp": "2024-10-08T08:50:00Z", "localityId": 3 }
+      ],
+      "weatherForecasts": [
+        { "id": 7, "city": "Parakou", "temperature": 27.5, "description": "Rainy", "timestamp": "2024-10-08T09:00:00Z" },
+        { "id": 8, "city": "Parakou", "temperature": 28.0, "description": "Partly Cloudy", "timestamp": "2024-10-08T09:30:00Z" },
+        { "id": 9, "city": "Parakou", "temperature": 26.5, "description": "Showers", "timestamp": "2024-10-08T10:00:00Z" }
+      ],
+      "alerts": [
+        { "id": 7, "message": "Flood warning in Parakou", "sentTo": "admin@floodmanagement.com", "sentAt": "2024-10-08T10:30:00Z" },
+        { "id": 8, "message": "Heavy rain expected in Parakou", "sentTo": "admin@weathermanagement.com", "sentAt": "2024-10-08T10:35:00Z" },
+        { "id": 9, "message": "Flood risk increasing in Parakou", "sentTo": "admin@floodmanagement.com", "sentAt": "2024-10-08T10:40:00Z" }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Abomey",
+      "sensors": [
+        { "id": 10, "sensorId": "SENSOR-010", "type": "water_level", "value": 1.2, "timestamp": "2024-10-08T08:30:00Z", "localityId": 4 },
+        { "id": 11, "sensorId": "SENSOR-011", "type": "water_level", "value": 0.9, "timestamp": "2024-10-08T08:40:00Z", "localityId": 4 },
+        { "id": 12, "sensorId": "SENSOR-012", "type": "water_level", "value": 1.5, "timestamp": "2024-10-08T08:50:00Z", "localityId": 4 }
+      ],
+      "weatherForecasts": [
+        { "id": 10, "city": "Abomey", "temperature": 28.0, "description": "Partly Cloudy", "timestamp": "2024-10-08T09:00:00Z" },
+        { "id": 11, "city": "Abomey", "temperature": 27.5, "description": "Rain Showers", "timestamp": "2024-10-08T09:30:00Z" },
+        { "id": 12, "city": "Abomey", "temperature": 26.0, "description": "Cloudy", "timestamp": "2024-10-08T10:00:00Z" }
+      ],
+      "alerts": [
+        { "id": 10, "message": "Flood alert in Abomey", "sentTo": "admin@floodmanagement.com", "sentAt": "2024-10-08T10:30:00Z" },
+        { "id": 11, "message": "Heavy rain expected in Abomey", "sentTo": "admin@weathermanagement.com", "sentAt": "2024-10-08T10:35:00Z" },
+        { "id": 12, "message": "Flood risk increasing in Abomey", "sentTo": "admin@floodmanagement.com", "sentAt": "2024-10-08T10:40:00Z" }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Ouidah",
+      "sensors": [
+        { "id": 13, "sensorId": "SENSOR-013", "type": "water_level", "value": 1.4, "timestamp": "2024-10-08T08:30:00Z", "localityId": 5 },
+        { "id": 14, "sensorId": "SENSOR-014", "type": "water_level", "value": 0.8, "timestamp": "2024-10-08T08:40:00Z", "localityId": 5 },
+        { "id": 15, "sensorId": "SENSOR-015", "type": "water_level", "value": 1.0, "timestamp": "2024-10-08T08:50:00Z", "localityId": 5 }
+      ],
+      "weatherForecasts": [
+        { "id": 13, "city": "Ouidah", "temperature": 29.0, "description": "Sunny", "timestamp": "2024-10-08T09:00:00Z" },
+        { "id": 14, "city": "Ouidah", "temperature": 30.0, "description": "Partly Cloudy", "timestamp": "2024-10-08T09:30:00Z" },
+        { "id": 15, "city": "Ouidah", "temperature": 28.5, "description": "Rain Showers", "timestamp": "2024-10-08T10:00:00Z" }
+      ],
+      "alerts": [
+        { "id": 13, "message": "Flood warning in Ouidah", "sentTo": "admin@floodmanagement.com", "sentAt": "2024-10-08T10:30:00Z" },
+        { "id": 14, "message": "Heavy rain expected in Ouidah", "sentTo": "admin@weathermanagement.com", "sentAt": "2024-10-08T10:35:00Z" },
+        { "id": 15, "message": "Flood risk increasing in Ouidah", "sentTo": "admin@floodmanagement.com", "sentAt": "2024-10-08T10:40:00Z" }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Bohicon",
+      "sensors": [
+        { "id": 16, "sensorId": "SENSOR-016", "type": "water_level", "value": 1.6, "timestamp": "2024-10-08T08:30:00Z", "localityId": 6 },
+        { "id": 17, "sensorId": "SENSOR-017", "type": "water_level", "value": 1.3, "timestamp": "2024-10-08T08:40:00Z", "localityId": 6 },
+        { "id": 18, "sensorId": "SENSOR-018", "type": "water_level", "value": 1.1, "timestamp": "2024-10-08T08:50:00Z", "localityId": 6 }
+      ],
+      "weatherForecasts": [
+        { "id": 16, "city": "Bohicon", "temperature": 27.0, "description": "Cloudy", "timestamp": "2024-10-08T09:00:00Z" },
+        { "id": 17, "city": "Bohicon", "temperature": 26.5, "description": "Rainy", "timestamp": "2024-10-08T09:30:00Z" },
+        { "id": 18, "city": "Bohicon", "temperature": 26.0, "description": "Showers", "timestamp": "2024-10-08T10:00:00Z" }
+      ],
+      "alerts": [
+        { "id": 16, "message": "Flood alert in Bohicon", "sentTo": "admin@floodmanagement.com", "sentAt": "2024-10-08T10:30:00Z" },
+        { "id": 17, "message": "Heavy rain expected in Bohicon", "sentTo": "admin@weathermanagement.com", "sentAt": "2024-10-08T10:35:00Z" },
+        { "id": 18, "message": "Flood risk increasing in Bohicon", "sentTo": "admin@floodmanagement.com", "sentAt": "2024-10-08T10:40:00Z" }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Djougou",
+      "sensors": [
+        { "id": 19, "sensorId": "SENSOR-019", "type": "water_level", "value": 1.5, "timestamp": "2024-10-08T08:30:00Z", "localityId": 7 },
+        { "id": 20, "sensorId": "SENSOR-020", "type": "water_level", "value": 1.3, "timestamp": "2024-10-08T08:40:00Z", "localityId": 7 },
+        { "id": 21, "sensorId": "SENSOR-021", "type": "water_level", "value": 1.4, "timestamp": "2024-10-08T08:50:00Z", "localityId": 7 }
+      ],
+      "weatherForecasts": [
+        { "id": 19, "city": "Djougou", "temperature": 27.5, "description": "Partly Cloudy", "timestamp": "2024-10-08T09:00:00Z" },
+        { "id": 20, "city": "Djougou", "temperature": 28.0, "description": "Rain Showers", "timestamp": "2024-10-08T09:30:00Z" },
+        { "id": 21, "city": "Djougou", "temperature": 26.0, "description": "Showers", "timestamp": "2024-10-08T10:00:00Z" }
+      ],
+      "alerts": [
+        { "id": 19, "message": "Flood warning in Djougou", "sentTo": "admin@floodmanagement.com", "sentAt": "2024-10-08T10:30:00Z" },
+        { "id": 20, "message": "Heavy rain expected in Djougou", "sentTo": "admin@weathermanagement.com", "sentAt": "2024-10-08T10:35:00Z" },
+        { "id": 21, "message": "Flood risk increasing in Djougou", "sentTo": "admin@floodmanagement.com", "sentAt": "2024-10-08T10:40:00Z" }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Natitingou",
+      "sensors": [
+        { "id": 22, "sensorId": "SENSOR-022", "type": "water_level", "value": 1.2, "timestamp": "2024-10-08T08:30:00Z", "localityId": 8 },
+        { "id": 23, "sensorId": "SENSOR-023", "type": "water_level", "value": 0.6, "timestamp": "2024-10-08T08:40:00Z", "localityId": 8 },
+        { "id": 24, "sensorId": "SENSOR-024", "type": "water_level", "value": 1.1, "timestamp": "2024-10-08T08:50:00Z", "localityId": 8 }
+      ],
+      "weatherForecasts": [
+        { "id": 22, "city": "Natitingou", "temperature": 26.5, "description": "Cloudy", "timestamp": "2024-10-08T09:00:00Z" },
+        { "id": 23, "city": "Natitingou", "temperature": 27.0, "description": "Showers", "timestamp": "2024-10-08T09:30:00Z" },
+        { "id": 24, "city": "Natitingou", "temperature": 26.0, "description": "Rainy", "timestamp": "2024-10-08T10:00:00Z" }
+      ],
+      "alerts": [
+        { "id": 22, "message": "Flood alert in Natitingou", "sentTo": "admin@floodmanagement.com", "sentAt": "2024-10-08T10:30:00Z" },
+        { "id": 23, "message": "Heavy rain expected in Natitingou", "sentTo": "admin@weathermanagement.com", "sentAt": "2024-10-08T10:35:00Z" },
+        { "id": 24, "message": "Flood risk increasing in Natitingou", "sentTo": "admin@floodmanagement.com", "sentAt": "2024-10-08T10:40:00Z" }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Porto-Novo",
+      "sensors": [
+        { "id": 25, "sensorId": "SENSOR-025", "type": "water_level", "value": 1.3, "timestamp": "2024-10-08T08:30:00Z", "localityId": 9 },
+        { "id": 26, "sensorId": "SENSOR-026", "type": "water_level", "value": 0.9, "timestamp": "2024-10-08T08:40:00Z", "localityId": 9 },
+        { "id": 27, "sensorId": "SENSOR-027", "type": "water_level", "value": 1.0, "timestamp": "2024-10-08T08:50:00Z", "localityId": 9 }
+      ],
+      "weatherForecasts": [
+        { "id": 25, "city": "Porto-Novo", "temperature": 28.0, "description": "Sunny", "timestamp": "2024-10-08T09:00:00Z" },
+        { "id": 26, "city": "Porto-Novo", "temperature": 29.0, "description": "Partly Cloudy", "timestamp": "2024-10-08T09:30:00Z" },
+        { "id": 27, "city": "Porto-Novo", "temperature": 28.5, "description": "Rain Showers", "timestamp": "2024-10-08T10:00:00Z" }
+      ],
+      "alerts": [
+        { "id": 25, "message": "Flood warning in Porto-Novo", "sentTo": "admin@floodmanagement.com", "sentAt": "2024-10-08T10:30:00Z" },
+        { "id": 26, "message": "Heavy rain expected in Porto-Novo", "sentTo": "admin@weathermanagement.com", "sentAt": "2024-10-08T10:35:00Z" },
+        { "id": 27, "message": "Flood risk increasing in Porto-Novo", "sentTo": "admin@floodmanagement.com", "sentAt": "2024-10-08T10:40:00Z" }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Cotonou",
+      "sensors": [
+        { "id": 28, "sensorId": "SENSOR-028", "type": "water_level", "value": 1.8, "timestamp": "2024-10-08T08:30:00Z", "localityId": 10 },
+        { "id": 29, "sensorId": "SENSOR-029", "type": "water_level", "value": 1.4, "timestamp": "2024-10-08T08:40:00Z", "localityId": 10 },
+        { "id": 30, "sensorId": "SENSOR-030", "type": "water_level", "value": 1.2, "timestamp": "2024-10-08T08:50:00Z", "localityId": 10 }
+      ],
+      "weatherForecasts": [
+        { "id": 28, "city": "Cotonou", "temperature": 30.0, "description": "Sunny", "timestamp": "2024-10-08T09:00:00Z" },
+        { "id": 29, "city": "Cotonou", "temperature": 30.5, "description": "Partly Cloudy", "timestamp": "2024-10-08T09:30:00Z" },
+        { "id": 30, "city": "Cotonou", "temperature": 29.0, "description": "Rain Showers", "timestamp": "2024-10-08T10:00:00Z" }
+      ],
+      "alerts": [
+        { "id": 28, "message": "Flood alert in Cotonou", "sentTo": "admin@floodmanagement.com", "sentAt": "2024-10-08T10:30:00Z" },
+        { "id": 29, "message": "Heavy rain expected in Cotonou", "sentTo": "admin@weathermanagement.com", "sentAt": "2024-10-08T10:35:00Z" },
+        { "id": 30, "message": "Flood risk increasing in Cotonou", "sentTo": "admin@floodmanagement.com", "sentAt": "2024-10-08T10:40:00Z" }
+      ]
+    }
+  ]
+}
