@@ -17,6 +17,14 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, "public")));
 
+app.use(
+  cors({
+    origin: "*", // Remplacez par l'URL de votre application React
+    methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
+    credentials: true, // Permet les cookies et l'authentification HTTP
+  })
+);
+
 app.use("/users", usersRouter);
 app.use("/localities", localitiesRouter);
 app.use("/alerts", alertRouter);
