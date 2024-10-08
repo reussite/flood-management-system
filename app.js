@@ -19,7 +19,7 @@ app.use(express.static(path.join(__dirname, "public")));
 
 app.use(
   cors({
-    origin: "*", // Remplacez par l'URL de votre application React
+    origin: "http://localhost:3000", // Remplacez par l'URL de votre application React
     methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
     credentials: true,
   })
