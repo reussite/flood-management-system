@@ -21,7 +21,6 @@ app.use(
   cors({
     origin: "*", // Remplacez par l'URL de votre application React
     methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
-    credentials: true, // Permet les cookies et l'authentification HTTP
   })
 );
 
