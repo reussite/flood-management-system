@@ -17,6 +17,14 @@ const generateRandomValue = (min, max) => {
   return (Math.random() * (max - min) + min).toFixed(2); // Garder 2 décimales
 };
 
+const shuffleArray = (array) => {
+  for (let i = array.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [array[i], array[j]] = [array[j], array[i]]; // Échange des éléments
+  }
+  return array;
+};
+
 // Mettre à jour les données avec des valeurs aléatoires pour les capteurs et la météo
 const updateDataWithRandomValues = (data) => {
   data.localities.forEach((locality) => {
@@ -40,4 +48,5 @@ module.exports = {
   readData,
   writeData,
   updateDataWithRandomValues,
+  shuffleArray
 };

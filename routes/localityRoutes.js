@@ -2,12 +2,12 @@ const express = require("express");
 const router = express.Router();
 const dataService = require("../services/dataService");
 
-// Obtenir toutes les localités
+// Obtenir toutes les localités de façon aléatoire
 router.get("/", (req, res) => {
   const data = dataService.readData();
-  res.json(data.localities);
+  const shuffledLocalities = dataService.shuffleArray(data.localities); // Mélanger les localités
+  res.json(shuffledLocalities); // Retourner les localités mélangées
 });
-//
 
 router.get("/alerts/critical", (req, res) => {
   const data = dataService.readData();
@@ -43,17 +43,16 @@ router.get("/alerts/critical", (req, res) => {
   res.json(criticalLocalities);
 });
 
-router.get('/random-data', (req, res) => {
+router.get("/random-data", (req, res) => {
   let data = dataService.readData();
-  
+
   // Mettre à jour les données avec des valeurs aléatoires
   data = dataService.updateDataWithRandomValues(data);
 
-  res.json(data.localities.find(locality => locality.name === 'Cotonou')); // Retourne les données de Cotonou
+  res.json(data.localities.find((locality) => locality.name === "Cotonou")); // Retourne les données de Cotonou
 });
 
-
-//// Ajouter une nouvelle localité
+// Ajouter une nouvelle localité
 //router.post('/', (req, res) => {
 //  const data = dataService.readData();
 //  const newLocality = req.body;
